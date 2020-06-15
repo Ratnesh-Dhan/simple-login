@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block body %} 
+        <h2>Register yourself</h2>
+        <br>
+        <br>
+        <form action="" method="POST">
+            <div>
+                <label>Pick a username </label>
+                <input type="text" name="username" placeholder="username">
+            </div>
+            <br>
+            <div>
+                <label>Email Id </label>
+                <input type="text" name="mail" placeholder="mail">
+            </div>
+            <br>
+            <div>
+                <label>Password </label>
+                <input type="password" name="password" placeholder="key">
+            </div>
+            <br>
+            <div>
+                <label>Reenter Password </label>
+                <input type="password" name="confirm" placeholder="confirm">
+            </div>
+            <br>
+            <div>
+                <button class="btn btn-primary" type="submit">submit</button>
+            </div>
+        </form>
+        <br>
+        <br>
+        <a href="/">home</a>
+
+{% endblock %}
