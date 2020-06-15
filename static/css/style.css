@@ -5,8 +5,18 @@
 
 }
 
-.message-style{
+.error{
     color:blue;
-    /*font-family: Arial, Helvetica, sans-serif;
-    text-align:center;*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.form-container{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px;
+}
+
+.center{
+    text-align: justify;
 }
