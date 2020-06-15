@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, session, logging, url_for, re
 from passlib.hash import sha256_crypt
 from pymongo import MongoClient
 #working on database
-cluster = MongoClient("mongodb+srv://tanpopo:crazyKuraishi@ayaka-g5z92.mongodb.net/kagari?retryWrites=true&w=majority")
+cluster = MongoClient("mongodb+srv://<username>:<password>@<clustername>-g5z92.mongodb.net/<db_name>?retryWrites=true&w=majority")
 
 #getting database
 db = cluster.get_database('kagari')
